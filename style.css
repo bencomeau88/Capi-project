@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+
+* {
+	box-sizing:border-box;
+}
+
+.abc {
+	font-family:Karla;
+	color:rgba(72, 72, 72, 0.85);
+	font-size:15px;
+	text-transform:uppercase;
+}
+
+.main-image{
+	background:
+    linear-gradient(
+      180deg, rgba(0,0,41,0.41), rgba(4, 3, 73, 0.78), rgba(0, 0, 11, 0.85)),
+    url('CodeChallenge/image1.jpg');
+  
+  background-size:cover;
+}
+
+.menu-burger span {
+	display: block;
+ width: 10px;
+ height: 0.1em;
+ margin: 2px 0;
+ background: rgba(72, 72, 72, 0.85);
+ z-index: 99;
+
+}
+
+.nav-links {
+	display:none;
+}
+
+.nav-links div{
+	position: absolute;
+ left: 100%;
+ top: 64%;
+ padding-right: 8px;
+ margin-top: -0.50em;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: 200;
+ vertical-align: middle;
+ z-index: 99;
+}
+
+.expand {
+	display:block;
+	background-color:grey;
+	padding:1px;
+	margin:1px;
+
+}
+
+.nav-links li {
+	list-style-type: none;
+	text-decoration:none;
+	font-family:Karla;
+	display:flex;
+	background-color: lightgrey;
+	width:100%;
+}
+
+.nav-links a {
+	text-decoration:none;
+	color:black;
+}
+
+.main-nav {
+	border-bottom:2px solid rgba(72, 72, 72, 0.1);
+	padding:5px;
+}
+
